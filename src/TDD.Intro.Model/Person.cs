@@ -26,6 +26,7 @@ namespace TDD.Intro.Model
 
     public class Address
     {
+        public Guid Id { get; set; }
         public string AddressLineOne { get; set; }
         public string AddressLineTwo { get; set; }
         public string City { get; set; }
